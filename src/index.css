@@ -37,8 +37,9 @@ header {
   color: #333;
   border-radius: 15px;
   padding: 40px 50px;
-  margin: 20px 0;
+  margin: 20px auto;
   position: relative;
+  width: 95vw;
 }
 
 .card.reverse {
@@ -123,6 +124,8 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 95vw;
+  margin: 0 auto;
 }
 
 .num-display {
@@ -190,6 +193,8 @@ input:focus {
 .about-link {
   display: flex;
   justify-content: flex-end;
+  margin: 0 auto;
+  width: 95vw;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
